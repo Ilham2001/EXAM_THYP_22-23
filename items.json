@@ -1,0 +1,218 @@
+[
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/5",
+    "@type": [],
+    "o:id": 5,
+    "o:is_public": true,
+    "o:owner": {},
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/110",
+      "o:id": 110
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/4",
+      "o:id": 4
+    },
+    "o:thumbnail": null,
+    "o:title": "Chercheur 1",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2022-12-05T10:05:50+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:05:50+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Chercheur 1"
+      }
+    ],
+    "jdc:nom": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "nom",
+        "is_public": true,
+        "@value": "Lazar"
+      }
+    ],
+    "jdc:prénom": [
+      {
+        "type": "literal",
+        "property_id": 191,
+        "property_label": "prénom",
+        "is_public": true,
+        "@value": "Ilham"
+      }
+    ],
+    "jdc:thème": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "thème",
+        "is_public": true,
+        "@value": "Blockchain"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/6",
+    "@type": ["o:Item", "jdc:Laboratoire"],
+    "o:id": 6,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/112",
+      "o:id": 112
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/6",
+      "o:id": 6
+    },
+    "o:thumbnail": null,
+    "o:title": "Laboratoire Paragraphe Paris 8",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2022-12-05T10:07:17+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:07:17+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Laboratoire Paragraphe Paris 8"
+      }
+    ],
+    "jdc:année": [
+      {
+        "type": "literal",
+        "property_id": 192,
+        "property_label": "année",
+        "is_public": true,
+        "@value": "2022/2023"
+      }
+    ],
+    "jdc:nom": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "nom",
+        "is_public": true,
+        "@value": "Paragraphe Paris 8"
+      }
+    ],
+    "jdc:thème": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "thème",
+        "is_public": true,
+        "@value": "Sciences de l’information et de la communication"
+      }
+    ]
+  },
+  {
+    "@context": "http://localhost/omeka-s/api-context",
+    "@id": "http://localhost/omeka-s/api/items/7",
+    "@type": ["o:Item", "jdc:Thèse"],
+    "o:id": 7,
+    "o:is_public": true,
+    "o:owner": {
+      "@id": "http://localhost/omeka-s/api/users/1",
+      "o:id": 1
+    },
+    "o:resource_class": {
+      "@id": "http://localhost/omeka-s/api/resource_classes/111",
+      "o:id": 111
+    },
+    "o:resource_template": {
+      "@id": "http://localhost/omeka-s/api/resource_templates/5",
+      "o:id": 5
+    },
+    "o:thumbnail": null,
+    "o:title": "Blockchain",
+    "thumbnail_display_urls": {
+      "large": null,
+      "medium": null,
+      "square": null
+    },
+    "o:created": {
+      "@value": "2022-12-05T10:08:08+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:08:08+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Blockchain"
+      }
+    ],
+    "jdc:année": [
+      {
+        "type": "literal",
+        "property_id": 192,
+        "property_label": "année",
+        "is_public": true,
+        "@value": "2022/2023"
+      }
+    ],
+    "jdc:nom": [
+      {
+        "type": "literal",
+        "property_id": 190,
+        "property_label": "nom",
+        "is_public": true,
+        "@value": "Utilité des blockchain"
+      }
+    ],
+    "jdc:thème": [
+      {
+        "type": "literal",
+        "property_id": 193,
+        "property_label": "thème",
+        "is_public": true,
+        "@value": "Blockchain et smart contracts"
+      }
+    ]
+  }
+]
