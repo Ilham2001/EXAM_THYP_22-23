@@ -7,23 +7,20 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
   </head>
   <body>
+    <h2>Element du vocabulaire des relations entre les chercheurs</h2>
     <div id="main"></div>
   </body>
   <script>
-    var items;
     d3.json("items.json").then(function (data) {
-      //console.log(data);
-      items = data;
-      console.log(items);
-      /*d3.select("#main")
+      d3.select("#main")
         .selectAll("div")
         .data(data)
         .enter()
         .append("div")
         .attr("id", (d, i) => "id-" + i)
         .html(
-          (d, i) => "Element : " + i + " " + d["dcterms:title"][0]["@value"]
-        );*/
+          (d, i) => "Element " + i + " : " + d["dcterms:title"][0]["@value"]
+        );
     });
   </script>
 </html>
